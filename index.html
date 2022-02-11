@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!--Navbar-->
+     <div class="border-bottom d-xl-block">
+        <nav class="navbar navbar-expand-lg navbar-light container">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="Logo.png"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class=""><img src="Icon (6).png"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Dashboard</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Tasks</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Reporting</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Users</a>
+                  </li>
+                </ul>
+                <div class="d-flex align-items-center" style="gap: 1rem;">
+                    <button class="btn btn-outline-dark px-4" id="btn-upgrade">
+                      <img src="bolt.png" class="me-3">Upgrade now
+                    </button>
+
+                    <img src="setting.png">
+                    <img src="alarm.png">
+                    <img src="user1.png" class="nav-img">
+                </div>
+              </div>
+            </div>
+          </nav>
+     </div>
+     <div class=" hr-line">
+      <nav class="navbar navbar-expand-lg navbar-light container">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Overview</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Notifications</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Analytics</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Saved reports</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Trade history</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">User reports</a>
+              </li>
+            </ul>
+            <div class="comic d-flex align-items-center">
+                <form class="nosubmit">
+                <button type="submit" class="pitch"><i class="fa fa-search"></i></button>
+                <input class="nosubmit" type="search"  placeholder="Search">
+                </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <hr class="nav-hr">
+     </div>
+    <!--Navbar-->
+    <!--<div class="m-3 d-md-flex">
+    </div>-->
+    <div class="page-topic container">
+      <div class="container-fluid d-md-flex career">
+        <div class="head-p">
+          <p class="heading">Welcome back, Olivia</p>
+          <p class="gin">Track, manage and forecast your customers and orders</p>
+        </div>
+        <div class="head-s d-flex justify-content-space-between">
+           <div>
+             <button class="import px-3 me-2"><img src="icon (2).png" class="me-2">import</button>
+           </div>
+           <div>
+             <button class="add px-3">+ Add</button>
+           </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="container-fluid d-md-block">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card test">
+              <p class="card-head d-flex"><b>Total customers</b><img src="Icon (3).png"></p>
+              <p class="card-num">2,420</p>
+              <div class="exper d-flex">
+                 <div class="char"><i class="fa fa-arrow-up me-1"></i>40%</div>
+                 <div class="text d-inline">vs last month</div>
+                 <div class="chart"><img src="line1.png" class="img-responsive tulo"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <p class="card-head d-flex"><b>Members</b><img src="Icon (3).png"></p>
+              <p class="card-num">1,210</p>
+              <div class="exper d-flex">
+                <div class="shar"><i class="fa fa-arrow-down me-1"></i>10%</div>
+                <div class="text d-inline">vs last month</div>
+                <div class="chart"><img src="line (1).png" class="img-responsive tulo"></div>
+             </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <p class="card-head d-flex"><b>Active now</b><img src="Icon (3).png"></p>
+              <p class="card-num">316</p>
+              <div class="exper d-flex">
+                <div class="char"><i class="fa fa-arrow-up me-1"></i>20%</div>
+                <div class="text d-inline">vs last month</div>
+                <div class="chart"><img src="line (2).png" class="img-responsive tulo"></div>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="container-fluid d-md-flex package">
+        <div class="loc d-flex">
+           <button class="btn-spef px-2 me-2">All time X</button>
+           <button class="btn-spef px-2 me-3">US, AU, +4 X</button>
+        </div>
+        <div class="jind d-md-flex">
+          <div class="order">
+          <button class="dilore  me-6 px-3"><img src="Icon (7).png" class="me-2 press">More filters</button>
+          </div>
+          <div class="comic d-flex align-items-center donk">
+            <form class="nosubmit">
+            <button type="submit" class="pitch"><i class="fa fa-search"></i></button>
+            <input class="nosubmit" type="search"  placeholder="Search">
+            </form>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="container ">
+      <div class="container-fluid ">
+        <div class="t-real">
+        <table class="table table-striped container-fluid">
+          <tb>
+            <tr class="gear">
+              <th scope="col"><img src="folo.png" class="me-3">Company <i class="fa fa-arrow-down"></i></th>
+              <th scope="col">License use</th>
+              <th scope="col">Status</th>
+              <th scope="col">Users</th>
+              <th scope="col">About</th>
+            </tr>
+            <tr>
+              <th scope="row">
+               <div class="pew d-flex align-items-center">
+                 <div class="check">
+                  <img src="folob.png" class="me-3">
+                 </div>
+                 <div class="avatar">
+                  <img src="Avatar.png" class="me-3">
+                 </div>
+                 <div class="writ d-block">
+                   <div class="bold">Catalog</div>
+                   <div class="child">catalogapp.io</div>
+                 </div>
+               </div>
+              </th>
+              <td>
+                <div class="progress" style="border-radius: 8px;">
+                  <div class="progress-bar" style="width: 80px; background-color: rgb(136, 2, 170); border-radius: 8px;" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </td>
+              <td>
+                <button class="greenie px-3">
+                   Customer
+                </button>
+              </td>
+              <td>
+                <div class="dofle d-flex">
+                  <div class="putu"><img src="image1.png"></div>
+                  <div class="putu"><img src="image2.png"></div>
+                  <div class="putu"><img src="image3.png"></div>
+                  <div class="putu"><img src="image4.png"></div>
+                  <div class="putu"><img src="image5.png"></div>
+                  <div class="putu"><img src="num1.png"></div>
+                </div>
+              </td>
+              <td>
+                <div class="prite d-flex align-items-center">
+                  <div class="clite d-block">
+                    <div class="peal"><b>Content curating app</b></div>
+                    <div class="pake">Brings all your news into one place</div>
+                  </div>
+                  <div class="ic">
+                    <img src="bin.png" class="me-3">
+                    <img src="writeup.png">
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <div class="pew d-flex align-items-center">
+                  <div class="check">
+                   <img src="folob.png" class="me-3">
+                  </div>
+                  <div class="avatar">
+                   <img src="Avatar (1).png" class="me-3">
+                  </div>
+                  <div class="writ d-block">
+                    <div class="bold">Circooles</div>
+                    <div class="child">getcircooles.com</div>
+                  </div>
+                </div>
+              </th>
+              <td>
+                <div class="progress" style="border-radius: 8px;">
+                  <div class="progress-bar" style="width: 70px; background-color: rgb(136, 2, 170); border-radius: 8px;" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </td>
+              <td>
+                <button class="blackie px-3">
+                    Churned
+                </button>
+              </td>
+              <td>
+                <div class="dofle d-flex">
+                  <div class="putu"><img src="image6.png"></div>
+                  <div class="putu"><img src="image8.png"></div>
+                  <div class="putu"><img src="image9.png"></div>
+                  <div class="putu"><img src="image10.png"></div>
+                  <div class="putu"><img src="image11.png"></div>
+                  <div class="putu"><img src="num2.png"></div>
+                </div>
+              </td>
+              <td>
+                <div class="prite d-flex align-items-center">
+                  <div class="clite d-block">
+                    <div class="peal"><b>Design software</b></div>
+                    <div class="pake">Super lightweight design app</div>
+                  </div>
+                  <div class="ic">
+                    <img src="bin.png" class="me-3">
+                    <img src="writeup.png">
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <div class="pew d-flex align-items-center">
+                  <div class="check">
+                   <img src="folob.png" class="me-3">
+                  </div>
+                  <div class="avatar">
+                   <img src="Avatar (2).png" class="me-3">
+                  </div>
+                  <div class="writ d-block">
+                    <div class="bold">Command+R</div>
+                    <div class="child">cmdr.ai</div>
+                  </div>
+                </div>
+              </th>
+              <td>
+                <div class="progress" style="border-radius: 8px;">
+                <div class="progress-bar" style="width: 50px; background-color: rgb(136, 2, 170); border-radius: 8px;" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              </td>
+              <td>
+                <button class="greenie px-3">
+                  Customer
+                </button>
+              </td>
+              <td>
+                <div class="dofle d-flex">
+                  <div class="putu"><img src="image11.png"></div>
+                  <div class="putu"><img src="image12.png"></div>
+                  <div class="putu"><img src="image13.png"></div>
+                  <div class="putu"><img src="image10.png"></div>
+                  <div class="putu"><img src="image5.png"></div>
+                  <div class="putu"><img src="num3.png"></div>
+                </div>
+              </td>
+              <td>
+                <div class="prite d-flex align-items-center">
+                  <div class="clite d-block">
+                    <div class="peal"><b>Data prediction</b></div>
+                    <div class="pake">AI and machine learning data</div>
+                  </div>
+                  <div class="ic">
+                    <img src="bin.png" class="me-3">
+                    <img src="writeup.png">
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <div class="pew d-flex align-items-center">
+                  <div class="check">
+                   <img src="foloc.png" class="me-3">
+                  </div>
+                  <div class="avatar">
+                   <img src="Avatar (3).png" class="me-3">
+                  </div>
+                  <div class="writ d-block">
+                    <div class="bold">Hourglass</div>
+                    <div class="child">hourglass.app</div>
+                  </div>
+                </div>
+              </th>
+              <td>
+                <div class="progress" style="border-radius: 8px;">
+                  <div class="progress-bar" style="width: 90px; background-color: rgb(136, 2, 170); border-radius: 8px;" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </td>
+              <td>
+                <button class="greenie px-3">
+                  Customer
+               </button>
+              </td>
+              <td>
+                <div class="dofle d-flex">
+                  <div class="putu"><img src="image5.png"></div>
+                  <div class="putu"><img src="image2.png"></div>
+                  <div class="putu"><img src="image6.png"></div>
+                  <div class="putu"><img src="image8.png"></div>
+                  <div class="putu"><img src="image12.png"></div>
+                </div>
+              </td>
+              <td>
+                <div class="prite d-flex align-items-center">
+                  <div class="clite d-block">
+                    <div class="peal"><b>Productivity app</b></div>
+                    <div class="pake">Time management and productivity</div>
+                  </div>
+                  <div class="ic">
+                    <img src="bin.png" class="me-3">
+                    <img src="writeup.png">
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <div class="pew d-flex align-items-center">
+                  <div class="check">
+                   <img src="foloc.png" class="me-3">
+                  </div>
+                  <div class="avatar">
+                   <img src="Avatar (4).png" class="me-3">
+                  </div>
+                  <div class="writ d-block">
+                    <div class="bold">Layers</div>
+                    <div class="child">getlayers.io</div>
+                  </div>
+                </div>
+              </th>
+              <td>
+                <div class="progress" style="border-radius: 8px;">
+                  <div class="progress-bar" style="width: 40px; background-color: rgb(136, 2, 170); border-radius: 8px;" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </td>
+              <td>
+                <button class="blackie px-3">
+                  Churned
+              </button>
+              </td>
+              <td>
+                <div class="dofle d-flex">
+                  <div class="putu"><img src="image3.png"></div>
+                  <div class="putu"><img src="image6.png"></div>
+                  <div class="putu"><img src="image12.png"></div>
+                  <div class="putu"><img src="image10.png"></div>
+                  <div class="putu"><img src="image11.png"></div>
+                  <div class="putu"><img src="num4.png"></div>
+                </div>
+              </td>
+              <td>
+                <div class="prite d-flex align-items-center">
+                  <div class="clite d-block">
+                    <div class="peal"><b>Web app integrations</b></div>
+                    <div class="pake">Connect web apps seamlessly</div>
+                  </div>
+                  <div class="ic">
+                    <img src="bin.png" class="me-3">
+                    <img src="writeup.png">
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <div class="pew d-flex align-items-center">
+                  <div class="check">
+                   <img src="folob.png" class="me-3">
+                  </div>
+                  <div class="avatar">
+                   <img src="Avatar (5).png" class="me-3">
+                  </div>
+                  <div class="writ d-block">
+                    <div class="bold">Quotient</div>
+                    <div class="child">quotient.co</div>
+                  </div>
+                </div>
+              </th>
+              <td>
+                <div class="progress" style="border-radius: 8px;">
+                  <div class="progress-bar" style="width: 35px; background-color: rgb(136, 2, 170); border-radius: 8px;" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </td>
+              <td>
+                <button class="greenie px-3">
+                  Customer
+               </button>
+              </td>
+              <td>
+                <div class="dofle d-flex">
+                  <div class="putu"><img src="image5.png"></div>
+                  <div class="putu"><img src="image3.png"></div>
+                  <div class="putu"><img src="image12.png"></div>
+                  <div class="putu"><img src="image6.png"></div>
+                  <div class="putu"><img src="image13.png"></div>
+                  <div class="putu"><img src="num5.png"></div>
+                </div>
+              </td>
+              <td>
+                <div class="prite d-flex align-items-center">
+                  <div class="clite d-block">
+                    <div class="peal"><b>Sales CRM</b></div>
+                    <div class="pake">Web-based sales doc management</div>
+                  </div>
+                  <div class="ic">
+                    <img src="bin.png" class="me-3">
+                    <img src="writeup.png">
+                  </div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">
+                <div class="pew d-flex align-items-center">
+                  <div class="check">
+                   <img src="folob.png" class="me-3">
+                  </div>
+                  <div class="avatar">
+                   <img src="Avatar (6).png" class="me-3">
+                  </div>
+                  <div class="writ d-block">
+                    <div class="bold">Sisyphus</div>
+                    <div class="child">sisyphus.com</div>
+                  </div>
+                </div>
+              </th>
+              <td>
+                <div class="progress" style="border-radius: 8px;">
+                  <div class="progress-bar" style="width: 55px; background-color: rgb(136, 2, 170); border-radius: 8px;" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </td>
+              <td>
+                <button class="greenie px-3">
+                  Customer
+               </button>
+              </td>
+              <td>
+                <div class="dofle d-flex">
+                  <div class="putu"><img src="image8.png"></div>
+                  <div class="putu"><img src="image13.png"></div>
+                  <div class="putu"><img src="image9.png"></div>
+                  <div class="putu"><img src="image12.png"></div>
+                  <div class="putu"><img src="image4.png"></div>
+                  <div class="putu"><img src="num6.png"></div>
+                </div>
+              </td>
+              <td>
+                <div class="prite d-flex align-items-center">
+                  <div class="clite d-block">
+                    <div class="peal"><b>Automation and workflow</b></div>
+                    <div class="pake">Time tracking, invoicing and expenses</div>
+                  </div>
+                  <div class="ic">
+                    <img src="bin.png" class="me-3">
+                    <img src="writeup.png">
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </tb>
+        
+        </table>
+        <div class="resh d-md-flex align-items-center">
+          <div class="change">
+            <button class="import me-3 px-3">
+               Previous
+            </button>
+            <button class="import px-3">
+              Next
+           </button>
+          </div>
+          <div class="cage">
+            Page 1 of 10
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
